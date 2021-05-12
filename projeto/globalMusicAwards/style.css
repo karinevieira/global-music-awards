@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --color-blue: #003049;
     --color-red: #d62828;
     --color-orange: #f77f00;
     --color-yellow: #fcbf49;
@@ -75,6 +74,11 @@ header {
     background-color: var(--color-orange);
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 100px;
+}
+
+.card-button button:active{
+    background-color: rgba(0, 128, 0, 0.788);
 }
 
 .modal-overlay {
