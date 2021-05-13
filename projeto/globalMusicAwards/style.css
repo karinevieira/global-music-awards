@@ -71,10 +71,12 @@ header {
 .card-button button {
     color: white;
     font-size: 14px;
+    padding: 5px;
     background-color: var(--color-orange);
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 20px;
-    width: 100px;
+    width: 110px;
+    border: none;
 }
 
 .card-button button:active{
