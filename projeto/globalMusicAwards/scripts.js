@@ -1,17 +1,11 @@
-const modalOverlay = document.querySelector('.modal-overlay')
-const cards = document.querySelectorAll('.card')
-
-for(let card of cards){
-    card.addEventListener('click', () => {
-        const videoId = card.getAttribute('id')
-        modalOverlay.classList.add('active')
-        modalOverlay.querySelector('iframe').src=`https://www.youtube.com/embed/${videoId}`
+let button = document.querySelectorAll('button')
+for(let i=0; i<=5; i++){
+    button.addEventListener('click', () => {
+        btn.innerHTML = 'Voted'
+        btn.style.backgroundColor = 'green'
     })
 }
 
-document.querySelector('.close-modal').addEventListener('click', () => {
-    modalOverlay.classList.remove('active')
-    modalOverlay.querySelector('iframe').src=""
-})
+
 
 
