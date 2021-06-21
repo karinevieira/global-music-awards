@@ -79,10 +79,6 @@ header {
     border: none;
 }
 
-/* .card-button button:active{
-    background-color: rgba(0, 128, 0, 0.788);
-} */
-
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
